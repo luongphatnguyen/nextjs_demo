@@ -28,12 +28,18 @@ function SSG({ users }) {
           <CategoryList>
             {users.map(user => ((
               <CategoryItem>
-                <Image 
+                <img 
+                  src={user.picture.large} 
+                  width={107}
+                  height={107}
+                  loading={'lazy'}
+                />
+                {/* <Image 
                   src={user.picture.large}
                   alt="Picture of the author"
                   width={107}
                   height={107}
-                />
+                /> */}
               </CategoryItem>
             )))}
           </CategoryList>
