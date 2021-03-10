@@ -29,11 +29,12 @@ function SSR({ users }) {
           <CategoryList>
             {users.map(user => ((
               <CategoryItem>
-                <Image 
-                  src={user.picture.large}
-                  alt="Picture of the author"
-                  width={107}
-                  height={107}
+                <img 
+                  src={user.picture.large} 
+                  width={42}
+                  height={42}
+                  loading={'lazy'}
+                  alt="avatar image"
                 />
               </CategoryItem>
             )))}
