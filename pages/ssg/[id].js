@@ -30,9 +30,10 @@ function SSG({ users }) {
               <CategoryItem>
                 <img 
                   src={user.picture.large} 
-                  width={107}
-                  height={107}
+                  width={42}
+                  height={42}
                   loading={'lazy'}
+                  alt="avatar image"
                 />
                 {/* <Image 
                   src={user.picture.large}
