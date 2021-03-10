@@ -23,7 +23,7 @@ function SSR({ users }) {
           <CategoryTitle>Danh mục</CategoryTitle>
           <CategoryBlock>
             <CategoryFilter className="tag is-black"  onClick={() => router.push(`/ssg/500`)}>500 SSG</CategoryFilter>
-            <CategoryFilter className="tag is-primary" onClick={() => router.push(`/ssr/500`)}>500 SSR</CategoryFilter>
+            <CategoryFilter className="tag is-info is-light" onClick={() => router.push(`/ssr/500`)}>500 SSR</CategoryFilter>
             <CategoryFilter className="tag is-secondary" onClick={() => router.push(`/ssg_cache/500`)}>500 SSR build time</CategoryFilter>
           </CategoryBlock>
           <CategoryList>
@@ -39,7 +39,7 @@ function SSR({ users }) {
             )))}
           </CategoryList>
         </Category>
-        {Array(100).fill({}).map(el => ((
+        {Array(2).fill({}).map(el => ((
             <Artical />
           )))}
 

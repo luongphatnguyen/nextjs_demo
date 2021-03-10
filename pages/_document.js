@@ -35,10 +35,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-            <title>NextJs Demo</title>
-            <meta name="Description" content="Author: A.N. Author,
-    Illustrator: P. Picture, Category: Books, Price: $17.99,
-    Length: 784 pages"></meta>
         </Head>
         <body>
           <Main />

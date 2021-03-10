@@ -14,7 +14,7 @@ const Banner = styled.div`
 
 const CategoryTitle = styled.h2`
     width: 100%;
-    font-size: 1rem;
+    font-size: 2rem;
     color: rgb(238, 77, 45);
     font-weight: 500;
     padding-left: 10px;
